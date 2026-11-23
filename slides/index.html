@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="從北城 Wiki 檔案練習設計末日生存世界觀的十頁互動教學。">
+  <title>末日生存世界觀設計入門</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="deck">
+    <header class="masthead"><a class="brand" href="#slide-1" aria-label="末日檔案，回到首頁"><span aria-hidden="true">╋</span><strong>末日檔案<small>WORLD DESIGN</small></strong></a><a class="source-jump" href="#slide-10">Wiki 來源</a></header>
+    <main id="slides">
+      <section id="slide-1" class="slide cover" aria-label="封面">
+        
+        <div class="cover-grid"><div><p class="cover-label">第十週教學簡報</p><h1 tabindex="-1">末日生存世界觀<br><em>設計入門</em></h1><p class="subtitle">從背景設定到知識關聯</p><ul class="cover-goals"><li>寫出背景、地點、物資、角色與事件</li><li>畫出有來源支持的關聯</li><li>辨別原文事實、推論與待確認事項</li></ul></div><figure class="radar-panel" aria-label="教學路徑：從設定到關聯，再回查來源"><div class="radar" aria-hidden="true"><span>＋</span><i></i><i></i></div><figcaption>設定 → 關聯 → 來源</figcaption></figure></div>
+        <footer class="citations"><span>Wiki 來源</span><button type="button" data-source="index">Wiki 索引</button></footer>
+      </section>
+      <section id="slide-2" class="slide" aria-label="基本構成">
+        <header class="slide-heading"><p class="topic">基本構成</p><h2 tabindex="-1">先回答五個問題</h2><p class="objective">用五個問題寫出世界觀的第一份草稿。</p></header>
+        <div class="cards five"><article class="card"><h3>災難背景</h3><p>原有秩序發生什麼變化？北城的醫療系統在爆發期間失去運作能力。</p></article><article class="card"><h3>地點</h3><p>事情在哪裡發生？例如北城綜合醫院的急診大樓。</p></article><article class="card"><h3>物資</h3><p>人們需要什麼？例如用於基礎照護的醫療補給包。</p></article><article class="card"><h3>角色</h3><p>誰能採取行動？例如前線醫護員林以安。</p></article><article class="card"><h3>事件</h3><p>哪件事在何時改變現況？例如 2042 年的第一次感染爆發。</p></article></div><p class="takeaway">練習句型：某件事發生後，某個角色在某處面臨哪一項物資難題？</p>
+        <footer class="citations"><span>Wiki 來源</span><button type="button" data-source="event">第一次感染爆發</button><button type="button" data-source="hospital">廢棄醫院</button><button type="button" data-source="medic">林以安</button><button type="button" data-source="kit">醫療補給包</button></footer>
+      </section>
+      <section id="slide-3" class="slide" aria-label="背景與時間線">
+        <header class="slide-heading"><p class="topic">背景與時間線</p><h2 tabindex="-1">讓事件有時間，也有證據</h2><p class="objective">用年、月、日定位變化，並保留原文尚未釐清的部分。</p></header>
+        <p class="annotation"><strong>2042 年｜事件檔案的重建</strong>　災變起因仍無定論。</p><ol class="timeline"><li><strong>3/17 夜間</strong><span>急診大量收治不明病患</span></li><li><strong>3/18 凌晨</strong><span>醫療團隊開始分批撤離</span></li><li><strong>3/18 白天</strong><span>林以安等人經地下通道轉移部分病患</span></li><li><strong>3/19</strong><span>醫院對外通訊中斷</span></li></ol><aside class="takeaway"><strong>人物檔案另記：</strong>林以安在爆發「當夜」協助將部分病患轉移至地下運輸通道。兩段是否為同一批、同一次或同一階段，仍待確認。</aside>
+        <footer class="citations"><span>Wiki 來源</span><button type="button" data-source="event">第一次感染爆發</button><button type="button" data-source="medic">林以安</button><button type="button" data-source="evac">撤離與傷患後送</button></footer>
+      </section>
+      <section id="slide-4" class="slide" aria-label="地點與風險">
+        <header class="slide-heading"><p class="topic">地點與風險</p><h2 tabindex="-1">評級有數字，也有範圍</h2><p class="objective">描述風險來源，以及評級適用的區域或勘查條件。</p></header>
+        <div class="cards two"><article class="card risk"><h3>廢棄醫院</h3><p class="rating">4 <small>/ 5</small></p><div class="meter" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><p>結構受損、視線受阻，有感染者活動紀錄。</p><p class="annotation">範圍：最近一次勘查，各樓層狀況有別。</p></article><article class="card risk"><h3>七號避難所</h3><p class="rating">2 <small>/ 5</small></p><div class="meter" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div><p>通風、照明與供水需要持續維修。</p><p class="annotation">範圍：開放區域，評級未涵蓋封閉維修通道及地面出入口。</p></article></div><p class="takeaway">寫自己的地點時，先選一個會妨礙角色行動的風險，再寫明它出現在哪裡。</p>
+        <footer class="citations"><span>Wiki 來源</span><button type="button" data-source="hospital">廢棄醫院</button><button type="button" data-source="shelter">七號避難所</button><button type="button" data-source="risk">地點風險與評級範圍</button></footer>
+      </section>
+      <section id="slide-5" class="slide" aria-label="生存資源">
+        <header class="slide-heading"><p class="topic">生存資源</p><h2 tabindex="-1">一包物資，三個管理問題</h2><p class="objective">辨認資源從哪裡取得、如何核對、由誰調撥。</p></header>
+        <ol class="flow"><li><strong>取得</strong><p>哪裡有？廢棄醫院急診備品櫃偶有封存庫存。</p></li><li><strong>核對</strong><p>誰來檢查？灰燈救援隊由醫護人員核對內容及保存狀態。</p></li><li><strong>調撥</strong><p>按什麼分配？七號避難所醫護室按需求評估調撥少量庫存。</p></li></ol><p class="takeaway">流程用來整理三個問題。這三筆例子缺乏可追溯同一批補給的流向紀錄。</p>
+        <footer class="citations"><span>Wiki 來源</span><button type="button" data-source="kit">醫療補給包</button><button type="button" data-source="supply">醫療物資轉運與配給</button><button type="button" data-source="operation">避難所運作</button></footer>
+      </section>
+      <section id="slide-6" class="slide" aria-label="倖存者角色">
+        <header class="slide-heading"><p class="topic">倖存者角色</p><h2 tabindex="-1">讓角色的專長遇上取捨</h2><p class="objective">用過去經驗、現在能力、合作關係與取捨設計角色。</p></header>
+        <div class="cards two"><article class="card"><h3>過去｜經驗從何而來</h3><p>林以安曾任北城綜合醫院急診護理師。</p></article><article class="card"><h3>現在｜能做什麼</h3><p>他擅長傷患後送、物資盤點及封裝辨識。</p></article><article class="card"><h3>合作｜誰能補位</h3><p>固定搭檔許岑負責規劃往返醫院的地面路線。</p></article><article class="card"><h3>取捨｜誰有不同看法</h3><p>他與保管員周伯偶爾對物資留守或外送有不同意見。</p></article></div><p class="takeaway">練習句型：他擅長＿＿，需要與＿＿合作，卻必須在＿＿與＿＿之間做選擇。</p>
+        <footer class="citations"><span>Wiki 來源</span><button type="button" data-source="medic">林以安</button><button type="button" data-source="guide">許岑</button><button type="button" data-source="keeper">周伯</button></footer>
+      </section>
+      <section id="slide-7" class="slide" aria-label="知識關聯">
+        <header class="slide-heading"><p class="topic">知識關聯</p><h2 tabindex="-1">給每條連線一個動詞</h2><p class="objective">辨識實體、概念與交叉連結，說清楚連線的意義。</p></header>
+        <div class="cards three"><article class="card"><h3>Entities｜具名對象</h3><p>廢棄醫院是地點，醫療補給包是物品。</p></article><article class="card"><h3>Concepts｜共通主題</h3><p>「醫療物資轉運與配給」整理取得、檢查與分配。</p></article><article class="card"><h3>Crosslinks｜可回查的關係</h3><p>醫院「偶有庫存」這項關係可在醫院與補給包兩頁查證。</p></article></div><figure class="relation"><span>廢棄醫院</span><span class="verb">急診備品櫃偶有庫存</span><span>醫療補給包</span></figure>
+        <footer class="citations"><span>Wiki 來源</span><button type="button" data-source="index">Wiki 索引</button><button type="button" data-source="hospital">廢棄醫院</button><button type="button" data-source="kit">醫療補給包</button><button type="button" data-source="supply">醫療物資轉運與配給</button></footer>
+      </section>
+      <section id="slide-8" class="slide" aria-label="案例">
+        <header class="slide-heading"><p class="topic">案例</p><h2 tabindex="-1">醫院、林以安與補給包</h2><p class="objective">用同一組節點練習區分來源事實與推論。</p></header>
+        <ul class="case-map"><li><b>林以安</b><span>曾任急診護理師</span><b>廢棄醫院</b></li><li><b>廢棄醫院</b><span>備品櫃偶有庫存</span><b>醫療補給包</b></li></ul><div class="cards two evidence"><article class="card"><h3>原始資料明確記載的事實</h3><p>林以安留有舊櫃位圖，擅長物資盤點與封裝辨識。醫院偶有完整封裝的補給包。</p></article><article class="card"><h3>AI 推論</h3><p>舊圖與專長可能有助於查找並初步評估庫存。他是否親自回收特定補給包，以及該批物資的去向，仍待確認。</p></article></div> 
+        <footer class="citations"><span>Wiki 來源</span><button type="button" data-source="hospital">廢棄醫院</button><button type="button" data-source="medic">林以安</button><button type="button" data-source="kit">醫療補給包</button></footer>
+      </section>
+      <section id="slide-9" class="slide" aria-label="互動練習">
+        <header class="slide-heading"><p class="topic">互動練習</p><h2 tabindex="-1">哪項關聯有來源支持？</h2><p class="objective">選出最符合 Wiki 記載的一項，再讀取答案解析。</p></header>
+        <form id="quiz"><fieldset><legend>選擇一個答案</legend><label><input type="radio" name="answer" value="a" required> 林以安把醫院的補給包送到了七號避難所。</label><label><input type="radio" name="answer" value="b"> 林以安保留醫院備品櫃的舊位置圖，院內偶有封存補給包。</label><label><input type="radio" name="answer" value="c"> 兩份檔案都把林以安協助轉移病患的時間定在 3 月 18 日白天。</label></fieldset><button class="primary" type="submit">查看解析</button><p id="feedback" class="feedback" role="status" aria-live="polite"></p></form>
+        <footer class="citations"><span>Wiki 來源</span><button type="button" data-source="hospital">廢棄醫院</button><button type="button" data-source="medic">林以安</button><button type="button" data-source="event">第一次感染爆發</button><button type="button" data-source="supply">醫療物資轉運與配給</button></footer>
+      </section>
+      <section id="slide-10" class="slide" aria-label="總結與來源">
+        <header class="slide-heading"><p class="topic">總結與來源</p><h2 tabindex="-1">從一張設定表開始</h2><p class="objective">用三個步驟檢查自己的世界觀，再依頁尾引用回查 Wiki。</p></header>
+        <ol class="summary-steps"><li>寫出背景、地點、資源、角色與事件。</li><li>用動詞連接兩個對象，補上能支持關係的來源。</li><li>標出推論與待確認事項，遇到差異就回查兩份記載。</li></ol><h3 class="catalog-heading">Wiki 資料來源</h3><div class="catalog"><button type="button" data-source="index">Wiki 索引</button><button type="button" data-source="event">第一次感染爆發</button><button type="button" data-source="hospital">廢棄醫院</button><button type="button" data-source="medic">林以安</button><button type="button" data-source="kit">醫療補給包</button><button type="button" data-source="evac">撤離與傷患後送</button><button type="button" data-source="shelter">七號避難所</button><button type="button" data-source="risk">地點風險與評級範圍</button><button type="button" data-source="supply">醫療物資轉運與配給</button><button type="button" data-source="operation">避難所運作</button><button type="button" data-source="guide">許岑</button><button type="button" data-source="keeper">周伯</button></div>
+        
+      </section>
+    </main>
+    <noscript><p>可捲動閱讀全部投影片。啟用 JavaScript 後可使用方向鍵、互動練習與來源面板。</p></noscript>
+    <nav id="controls" class="controls" aria-label="投影片控制" hidden><button id="prev" type="button">上一頁</button><div class="progress-area"><span id="page-number" aria-live="polite">01 / 10</span><progress id="progress" value="1" max="10" aria-label="簡報進度"></progress></div><button id="next" class="primary" type="button">下一頁</button></nav>
+  </div>
+  <dialog id="source-dialog" aria-labelledby="source-name">
+    <form method="dialog"><button class="close" type="submit">關閉</button></form>
+    <p class="topic">Wiki 來源摘要</p><h2 id="source-name"></h2><p id="source-note"></p><code id="source-path"></code>
+  </dialog>
+  <template id="source-records">
+    <article data-record="index"><h3>Wiki 索引</h3><p>17 個索引頁涵蓋 5 個來源頁、8 個實體與 4 個概念。</p><code>.wiki/wiki/index.md</code></article>
+    <article data-record="event"><h3>第一次感染爆發</h3><p>事件涵蓋北城綜合醫院急診大樓及周邊街區，時間為 2042 年 3 月 17 日夜間至 3 月 19 日。</p><code>.wiki/wiki/entities/first-outbreak.md</code></article>
+    <article data-record="hospital"><h3>廢棄醫院</h3><p>最近一次勘查評級 4 / 5。急診備品櫃仍有少量完整封裝的補給包。林以安保留備品櫃舊位置圖。</p><code>.wiki/wiki/entities/abandoned-hospital.md</code></article>
+    <article data-record="medic"><h3>林以安</h3><p>曾任北城綜合醫院急診護理師，擅長傷患後送、盤點與封裝辨識。人物檔案將轉移部分病患寫在爆發「當夜」。</p><code>.wiki/wiki/entities/field-medic.md</code></article>
+    <article data-record="kit"><h3>醫療補給包</h3><p>灰燈救援隊會由醫護人員確認內容與保存狀態，再分配至前線。</p><code>.wiki/wiki/entities/medical-kit.md</code></article>
+    <article data-record="evac"><h3>撤離與傷患後送</h3><p>事件檔案將林以安等人經地下通道轉移部分病患列於 3 月 18 日白天，人物檔案另記爆發當夜。</p><code>.wiki/wiki/concepts/evacuation-and-casualty-transfer.md</code></article>
+    <article data-record="shelter"><h3>七號避難所</h3><p>開放區域危險等級 2 / 5，封閉維修通道與地面出入口未納入評級。</p><code>.wiki/wiki/entities/northern-underground-shelter.md</code></article>
+    <article data-record="risk"><h3>地點風險與評級範圍</h3><p>醫院評級取自最近一次勘查，避難所評級僅適用於開放區域。</p><code>.wiki/wiki/concepts/location-risk.md</code></article>
+    <article data-record="supply"><h3>醫療物資轉運與配給</h3><p>原文分別記載取得、核對、保管及調撥，缺少能確認某批補給流向的紀錄。</p><code>.wiki/wiki/concepts/medical-supply-management.md</code></article>
+    <article data-record="operation"><h3>避難所運作</h3><p>配給站按登記及庫存發放飲水和保存食品，醫護室依需求評估調撥醫療補給。</p><code>.wiki/wiki/concepts/shelter-operations.md</code></article>
+    <article data-record="guide"><h3>許岑</h3><p>灰燈嚮導，負責規劃往返醫院的地面路線，是林以安的固定搭檔。</p><code>.wiki/wiki/entities/xu-cen.md</code></article>
+    <article data-record="keeper"><h3>周伯</h3><p>七號避難所保管員，協助保管回收的補給包，與林以安偶爾對留守或外送有不同意見。</p><code>.wiki/wiki/entities/zhou-bo.md</code></article>
+  </template>
+</body>
+</html>
